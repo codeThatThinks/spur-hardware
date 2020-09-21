@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT25SF081-MAHB-X
+D 8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
+K SPI DSPI QSPI 8Mbit 2.5V
+F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$ENDCMP
+#
+$CMP AT25SF081-SSHF-X
+D 8-Mbit, 2.3V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
+K SPI DSPI QSPI 8Mbit 2.3V
+F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$ENDCMP
+#
+$CMP MIC5219YM5
+D 500mA low dropout linear regulator, adjustable output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5377YC5
+D 150mA low dropout linear regulator, adjustable output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
+$ENDCMP
+#
+$CMP SPX3819M5-L
+D 500mA Low drop-out regulator, Adjustable, SOT-23-5
+K REGULATOR LDO ADJ
+F https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819
+$ENDCMP
+#
+#End Doc Library
