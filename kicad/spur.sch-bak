@@ -338,10 +338,6 @@ F 3 "~" H 7650 1750 50  0001 C CNN
 	1    7650 1750
 	1    0    0    -1  
 $EndComp
-Text Label 9800 4700 2    50   ~ 0
-UART_TXO
-Text Label 9800 4800 2    50   ~ 0
-UART_RXI
 Text Label 9800 5000 2    50   ~ 0
 SPI_SCK
 Text Label 9800 5100 2    50   ~ 0
@@ -1044,10 +1040,10 @@ Wire Wire Line
 	6950 3400 7000 3400
 Connection ~ 7000 3400
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint TP?
 U 1 1 5F6B941A
 P 9850 5800
-F 0 "TP7" V 9850 6050 50  0000 C CNN
+F 0 "TP?" V 9850 6050 50  0000 C CNN
 F 1 "SWDIO" V 9954 5872 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10050 5800 50  0001 C CNN
 F 3 "~" H 10050 5800 50  0001 C CNN
@@ -1055,10 +1051,10 @@ F 3 "~" H 10050 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L Connector:TestPoint TP?
 U 1 1 5F6B9F42
 P 9850 5900
-F 0 "TP8" V 9850 6150 50  0000 C CNN
+F 0 "TP?" V 9850 6150 50  0000 C CNN
 F 1 "SWCLK" V 9954 5972 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10050 5900 50  0001 C CNN
 F 3 "~" H 10050 5900 50  0001 C CNN
@@ -1069,32 +1065,6 @@ Wire Wire Line
 	9350 5800 9850 5800
 Wire Wire Line
 	9350 5900 9850 5900
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5F6C581E
-P 9850 4700
-F 0 "TP5" V 9850 4950 50  0000 C CNN
-F 1 "TXO" V 9954 4772 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10050 4700 50  0001 C CNN
-F 3 "~" H 10050 4700 50  0001 C CNN
-	1    9850 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5F6C5828
-P 9850 4800
-F 0 "TP6" V 9850 5050 50  0000 C CNN
-F 1 "RXI" V 9954 4872 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10050 4800 50  0001 C CNN
-F 3 "~" H 10050 4800 50  0001 C CNN
-	1    9850 4800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9350 4700 9850 4700
-Wire Wire Line
-	9350 4800 9850 4800
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5F6F5D70
@@ -1132,4 +1102,6 @@ Wire Wire Line
 	8050 4600 7500 4600
 Wire Wire Line
 	7500 4700 8050 4700
+NoConn ~ 9350 4700
+NoConn ~ 9350 4800
 $EndSCHEMATC
