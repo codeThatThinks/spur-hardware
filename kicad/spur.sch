@@ -610,17 +610,13 @@ Wire Wire Line
 Connection ~ 5050 4800
 Wire Wire Line
 	5050 4800 5050 4750
-Text Label 4500 4400 0    50   ~ 0
-BOOT_POS_1
-Text Label 5800 4400 2    50   ~ 0
-BOOT_POS_2
 Wire Wire Line
-	5800 4400 5250 4400
+	5700 4400 5250 4400
 Connection ~ 5250 4400
 Wire Wire Line
 	5250 4400 5250 4350
 Wire Wire Line
-	5050 4400 4500 4400
+	5050 4400 4600 4400
 Connection ~ 5050 4400
 Wire Wire Line
 	5050 4400 5050 4350
@@ -874,8 +870,6 @@ Wire Wire Line
 NoConn ~ 9350 5500
 NoConn ~ 9350 5400
 NoConn ~ 9350 5300
-NoConn ~ 9350 4600
-NoConn ~ 9350 4500
 NoConn ~ 8050 6000
 NoConn ~ 8050 5900
 NoConn ~ 8050 5800
@@ -1094,14 +1088,20 @@ Wire Wire Line
 	2050 2100 2050 2050
 Wire Wire Line
 	3200 4000 3150 4000
-Text Label 7500 4600 0    50   ~ 0
-BOOT_POS_1
-Text Label 7500 4700 0    50   ~ 0
-BOOT_POS_2
+Text Label 9800 4600 2    50   ~ 0
+SW_POS2
+Text Label 9800 4500 2    50   ~ 0
+SW_POS1
 Wire Wire Line
-	8050 4600 7500 4600
+	9350 4600 9800 4600
 Wire Wire Line
-	7500 4700 8050 4700
+	9800 4500 9350 4500
 NoConn ~ 9350 4700
 NoConn ~ 9350 4800
+NoConn ~ 8050 4700
+NoConn ~ 8050 4600
+Text Label 4600 4400 0    50   ~ 0
+SW_POS1
+Text Label 5700 4400 2    50   ~ 0
+SW_POS2
 $EndSCHEMATC
