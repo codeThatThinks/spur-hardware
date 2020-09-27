@@ -1,18 +1,17 @@
 Spur v1.0 BOM,,,,,,,,,,,
 Qty.,Refdes,Description,Value,Package,Manufacturer,Manufacturer P/N,Digikey P/N,Unit Price @ Qty 1,Price @ Qty 1,Unit Price @ Qty 100,Price @ Qty 100
 2,"C1, C2","Capacitor, ceramic, 6.3V",1u,0402,Samsung,CL05A105KQ5NNNC,1276-1010-1-ND,$0.10000,$0.20,$0.00870,$0.02
-5,"C3, C8, C9, C10, C11","Capacitor, ceramic, 6.3V",0.1u,0402,Samsung,CL05A104KQ5NNNC,1276-1442-1-ND,$0.10000,$0.50,$0.00850,$0.04
+5,"C3, C7, C8, C9, C10","Capacitor, ceramic, 6.3V",0.1u,0402,Samsung,CL05A104KQ5NNNC,1276-1442-1-ND,$0.10000,$0.50,$0.00850,$0.04
 2,"C4, C5","Capacitor, ceramic, 50V",4p,0402,Yageo,CC0402BRNPO9BN4R0,311-3705-1-ND,$0.10000,$0.20,$0.01760,$0.04
-2,"C6, C7","Capacitor, ceramic, 10V",4.7u,0402,Samsung,CL05A475MP5NRNC,1276-1482-1-ND,$0.10000,$0.20,$0.00336,$0.01
+1,C6,"Capacitor, ceramic, 10V",4.7u,0402,Samsung,CL05A475MP5NRNC,1276-1482-1-ND,$0.10000,$0.10,$0.00336,$0.00
 1,D1,"Zener diode, ESD",,0402,ON Semi,NSPU3051N2T5G,NSPU3051N2T5GOSCT-ND,$0.36000,$0.36,$0.13440,$0.13
-1,D2,"LED, green",,0402,Kingbright,APHHS1005CGCK,754-1101-1-ND,$0.40000,$0.40,$0.16450,$0.16
-1,D3,"Diode array, ESD, 2 channel",,SOT-886,Nexperia,"PRTR5V0U2F,115",1727-4161-1-ND,$0.49000,$0.49,$0.25500,$0.26
+1,D2,"Diode array, ESD, 2 channel",,SOT-886,Nexperia,"PRTR5V0U2F,115",1727-4161-1-ND,$0.49000,$0.49,$0.25500,$0.26
 1,PCB1,"Bare PCB, 2 layer, 0.6mm, 1oz, ENIG",,,JLCPCB,,,$3.60000,$3.60,$0.49500,$0.50
-6,"R1, R3, R4, R5, R6, R7","Resistor, thick film, 1%, 1/16W",10K,0402,Yageo,RC0402FR-0710KL,311-10.0KLRCT-ND,$0.10000,$0.60,$0.00580,$0.03
-1,R2,"Resistor, thick film, 1%, 1/16W",23K,0402,Yageo,RC0402FR-0722KL,311-22.0KLRCT-ND,$0.10000,$0.10,$0.00580,$0.01
+2,"R2, R3","Resistor, thick film, 1%, 1/16W",10K,0402,Yageo,RC0402FR-0710KL,311-10.0KLRCT-ND,$0.10000,$0.20,$0.00580,$0.01
+1,R1,"Resistor, thick film, 1%, 1/16W",23K,0402,Yageo,RC0402FR-0722KL,311-22.0KLRCT-ND,$0.10000,$0.10,$0.00580,$0.01
 1,SW1,"Slide switch, SPDT",,JS102000SAQN,C&K,JS102000SAQN,401-2005-1-ND,$0.71000,$0.71,$0.56960,$0.57
 1,U1,"Linear regulator, adjustable, 150mA",,SOT-353,Microchip,MIC5377YC5-TR,576-3358-1-ND,$0.26000,$0.26,$0.20000,$0.20
 1,U2,"Flash memory, NOR, SPI, 1MiB",,8-UDFN,Adesto,AT25SF081B-MAHB-T,1265-AT25SF081B-MAHB-TCT-ND,$0.40000,$0.40,$0.32560,$0.33
 1,U3,"Microcontroller, 128KiB flash",,48-UFQFN,STmicro,STM32F401CBU6,497-17425-ND,$4.96000,$4.96,$3.64690,$3.65
 1,Y1,"Crystal, 24MHz, Cl=12pF",,4-SMD,Murata,XRCGB24M000F1H03R0,490-18289-1-ND,$0.44000,$0.44,$0.29100,$0.29
-,,,,,,,,Price @ Qty 1:,$13.42,Price @ Qty 100:,$6.22
+,,,,,,,,Price @ Qty 1:,$12.52,Price @ Qty 100:,$6.03
