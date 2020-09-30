@@ -30,7 +30,7 @@ U 1 1 5F6417B2
 P 2800 6900
 F 0 "U2" H 2350 7300 50  0000 L CNN
 F 1 "AT25SF081-MAHB-X" H 2850 7300 50  0000 L CNN
-F 2 "Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm" H 2800 6300 50  0001 C CNN
+F 2 "spur:SON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm" H 2800 6300 50  0001 C CNN
 F 3 "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf" H 2800 6900 50  0001 C CNN
 	1    2800 6900
 	1    0    0    -1  

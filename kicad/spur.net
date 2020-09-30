@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ian/Projects/spur-hardware/kicad/spur.sch)
-    (date "Sat 26 Sep 2020 09:21:43 PM EDT")
+    (date "Tue 29 Sep 2020 08:59:33 PM EDT")
     (tool "Eeschema 5.1.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -24,7 +24,7 @@
       (tstamp 5F640CFE))
     (comp (ref U2)
       (value AT25SF081-MAHB-X)
-      (footprint Package_SON:SON-8-1EP_3x2mm_P0.5mm_EP1.4x1.6mm)
+      (footprint spur:SON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm)
       (datasheet https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf)
       (libsource (lib spur) (part AT25SF081-MAHB-X) (description "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"))
       (sheetpath (names /) (tstamps /))
