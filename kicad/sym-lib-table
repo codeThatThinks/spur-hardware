@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name spur)(type Legacy)(uri ${KIPRJMOD}/spur.lib)(options "")(descr ""))
+  (lib (name spur-rescue)(type Legacy)(uri ${KIPRJMOD}/spur-rescue.lib)(options "")(descr ""))
 )
